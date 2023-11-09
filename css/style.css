@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&family=IM+Fell+English:ital@0;1&family=Oregano:ital@1&family=Xanh+Mono:ital@1&display=swap');
+
+h1.name,
+p.job-title,
+body,
+table,
+th,
+td,
+a,
+a:hover,
+h2,
+header,
+hr,
+div, /* pour remplacer les 'article' précédents */
+address {
+    font-family: 'Delius Unicase', 'IM Fell English', 'Oregano', 'Xanh Mono', sans-serif;
+}
+
+h1.name {
+    color: #2c3e50;
+    background-color: #f7dc6f;
+}
+
+p.job-title {
+    color: #e74c3c;
+    background-color: #fdcb6e;
+}
+
+body {
+    background-color: #F0DBB6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    background-color: #ecf0f1;
+}
+
+th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+    background-color: #fff;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #27ae60;
+    background-color: #d4efdf;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f9e79f;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #3498db;
+    margin: 20px 0;
+}
+
+div { /* Pour remplacer les 'article' précédents */
+    text-align: justify;
+}
+
+address {
+    margin-top: 20px;
+    background-color: #eb984e;
+}
