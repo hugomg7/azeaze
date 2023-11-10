@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase&family=IM+Fell+English:ital@0;1&family=Oregano:ital@1&family=Xanh+Mono:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase&family=IM+Fell+English:ital@0;1&family=Oregano:ital@1&family=Roboto:ital,wght@1,500&family=Xanh+Mono:ital@1&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <title>Hugo Mauger</title>
 </head>
 <body>
     <header>
-        <hr>
-        <h1 class="name">Hugo Mauger</h1>
-        <hr>
+        <div class="divider">
+            <hr>
+        </div>
+        <div class="name-container">
+            <h1 class="name">Hugo Mauger</h1>
+        </div>
+        <div class="divider">
+            <hr>
+        </div>
     </header>
     <main>
-        <section>
-            <figure>
-                <img src="https://fakeimg.pl/150/?text=Hugo" alt="Photo de Hugo">
-            </figure>
-            <p class="job-title">Recherche d'un poste de responsable marketing</p>
-            <article>
-                <p>Passionné par l'innovation et les stratégies digitales, je m'engage à contribuer avec créativité et détermination au succès de projets marketing. Maîtrise des outils marketing digital (Facebook ads, Google ads), gestion budgétaire, maîtrise des outils de PAO, polyvalence et réactivité, excellent relationnel.</p>
-            </article>
+        <section class="personal-info">
+            <div class="image-container">
+                <figure>
+                    <img src="https://fakeimg.pl/150/?text=Hugo" alt="Photo de Hugo">
+                </figure>
+            </div>
+            <div class="info-container">
+                <p class="job-title">Recherche d'un poste de responsable marketing</p>
+                <article>
+                    <p>Passionné par l'innovation et les stratégies digitales, je m'engage à contribuer avec créativité et détermination au succès de projets marketing. Maîtrise des outils marketing digital (Facebook ads, Google ads), gestion budgétaire, maîtrise des outils de PAO, polyvalence et réactivité, excellent relationnel.</p>
+                </article>
+            </div>
         </section>
-        <section>
+        <section class="skills">
             <h2>Compétences</h2>
             <article>
-                <table border="1">
-                    <caption>Outils Marketing Digital</caption>
+                <table class="competences">
                     <thead>
                         <tr>
                             <th>Compétences</th>
@@ -53,14 +62,6 @@
                         </tr>
                         <tr>
                             <td>PAO</td>
-                            <td>Avancé</td>
-                        </tr>
-                        <tr>
-                            <td>Polyvalence</td>
-                            <td>Avancé</td>
-                        </tr>
-                        <tr>
-                            <td>Réactivité</td>
                             <td>Avancé</td>
                         </tr>
                         <tr>
@@ -91,7 +92,6 @@
                 <p>(+33) 0786859404</p>
                 <p><a href="mailto:hmauger@normandiewebschool.fr">hmauger@normandiewebschool.fr</a></p>
                 <p><a href="https://www.linkedin.com/in/hugo-mauger-76b251263/" class="linkedin">Profil LinkedIn</a></p>
-                <p>11 Rue Jacques Prevert</p>
             </address>
         </section>
     </main>

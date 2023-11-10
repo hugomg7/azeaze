@@ -1,90 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&family=IM+Fell+English:ital@0;1&family=Oregano:ital@1&family=Xanh+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&family=IM+Fell+English:ital@0;1&family=Oregano:ital@1&family=Roboto:ital,wght@1,500&family=Xanh+Mono:ital@1&display=swap');
 
-h1.name,
-p.job-title,
-body,
-table,
-th,
-td,
-a,
-a:hover,
-h2,
-header,
-hr,
-div, /* pour remplacer les 'article' précédents */
-address {
-    font-family: 'Delius Unicase', 'IM Fell English', 'Oregano', 'Xanh Mono', sans-serif;
+body {
+    font-family: 'Roboto', 'Delius Unicase', 'IM Fell English', 'Oregano', 'Xanh Mono', sans-serif;
+    background: url('https://literieduault.fr/wp-content/uploads/fond-site-duault.jpg') center/cover no-repeat;
+    animation: moveBackground 10s linear infinite;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes moveBackground {
+    0%, 100% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
 }
 
 h1.name {
-    color: #2c3e50;
-    background-color: #f7dc6f;
+    color: #000000;
+    background-color: #004080;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
 }
 
 p.job-title {
-    color: #e74c3c;
-    background-color: #fdcb6e;
-}
-
-body {
-    background-color: #F0DBB6;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    border: 1px solid #ccc;
-    background-color: #ecf0f1;
-}
-
-th {
-    background-color: #f2f2f2;
-    padding: 8px;
-    text-align: left;
-}
-
-td {
-    padding: 8px;
-    text-align: left;
-    background-color: #fff;
+    color: #000000;
+    background-color: #004080;
+    padding: 15px;
+    margin: 10px 0;
 }
 
 a {
-    color: #2980b9;
+    color: #001f3f;
     text-decoration: none;
+    border-bottom: 1px solid #001f3f;
+    padding-bottom: 1px;
+    transition: color 0.3s ease-in-out;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #004080;
 }
 
 h2 {
-    color: #27ae60;
-    background-color: #d4efdf;
-}
-
-header {
+    color: #000000;
+    background-color: #5982ac;
+    padding: 10px;
     text-align: center;
-    margin-top: 20px;
-    background-color: #f9e79f;
-}
-
-hr {
-    border: 0;
-    height: 1px;
-    background: #3498db;
     margin: 20px 0;
 }
 
-div { /* Pour remplacer les 'article' précédents */
-    text-align: justify;
+table.competences {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f0f0f0;
 }
 
-address {
-    margin-top: 20px;
-    background-color: #eb984e;
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
 }
